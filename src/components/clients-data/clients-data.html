@@ -1,0 +1,26 @@
+<%
+  const data = JSON.parse(include('clients-data.json'));
+%>
+
+<div class="clients-data">
+  <div class="clients-data__list">
+
+    <% data.list.forEach(item => { %>
+      <div class="clients-data__item">
+        <div class="clients-data__treaty"><%= item.treaty %></div>
+        <div class="clients-data__name"><%= item.name %></div>
+        <div class="clients-data__currency"><%= item.currency %></div>
+        <div class="clients-data__contract-type"><%= item.contract_type %></div>
+        <div class="clients-data__account"><%= item.account %></div>
+        <div class="clients-data__detailed">
+          <div class="clients-data__inner">
+            <div class="clients-data__organization"><%= item.organization %></div>
+            <div class="clients-data__opening-date"><%= item.opening_date %></div>
+            <button class="clients-data__btn btn-base">edit</button>
+          </div>
+        </div>
+      </div>
+    <% }); %>
+
+  </div>
+</div>

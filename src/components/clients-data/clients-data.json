@@ -1,0 +1,49 @@
+{
+  "list": [
+    {
+      "treaty": "4295087000001342",
+      "name": "ЗАТЕЙЩИКОВ ВЕНИАМИН СПИРИДОНОВИЧ",
+      "currency": "RUR",
+      "contract_type": "Действующий",
+      "account": "00000810000000014817",
+      "organization": "Рога и Копыта",
+      "opening_date": "15.01.2018"
+    },
+    {
+      "treaty": "4292255000004566",
+      "name": "ПЕТРОВ ИВАН ВИКТОРОВИЧ",
+      "currency": "RUR",
+      "contract_type": "Новый",
+      "account": "40817810601234905462",
+      "organization": "Рога и Копыта",
+      "opening_date": "22.03.2020"
+    },
+    {
+      "treaty": "4295023000001262",
+      "name": "ПАВЛОВА ИРИНА НИКОЛАЕВНА",
+      "currency": "RUR",
+      "contract_type": "Новый",
+      "account": "40817810401234902061",
+      "organization": "Рога и Копыта",
+      "opening_date": "12.04.2020"
+    },
+    {
+      "treaty": "341/YY-П",
+      "name": "СИДОРОВА ЕЛЕНА ПЕТРОВНА",
+      "currency": "RUR",
+      "contract_type": "Действующий",
+      "account": "00000810100000011217",
+      "organization": "Рога и Копыта",
+      "opening_date": "22.11.2019"
+    },
+    {
+      "treaty": "461/YY-П",
+      "name": "ПАНОВ ПАВЕЛ МИХАЙЛОВИЧ",
+      "currency": "RUR",
+      "contract_type": "Действующий",
+      "account": "00000810200000017517",
+      "organization": "Рога и Копыта",
+      "opening_date": "22.01.2016"
+    }
+  ]
+}

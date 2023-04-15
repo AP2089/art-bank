@@ -1,0 +1,88 @@
+.clients-data {
+  $rs: &;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 15px;
+
+  &__list {
+    display: grid; 
+    gap: 10px 10px;
+
+    @include media('min', $viewport-post-md) {
+      grid-template-columns: 1fr 1fr 40%;
+    }
+
+    @include media(null, $viewport-post-xs, $viewport-md) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include media('max', $viewport-xs) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__item {
+    position: relative;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+  }
+
+  &__treaty {
+    margin-bottom: 5px;
+  }
+
+  &__name {
+    margin-bottom: 5px;
+  }
+
+  &__currency {
+    margin-bottom: 5px;
+  }
+
+  &__contract-type {
+    margin-bottom: 5px;
+  }
+
+  &__account {
+    margin-bottom: 5px;
+  }
+
+  &__detailed {
+    width: 0;
+    overflow: hidden;
+    position: absolute;
+    top: calc(100% - 15px);
+    left: -1px;
+    z-index: 100;
+    opacity: 0;
+    transition: width 0s ease .3s, opacity .3s ease 0s;
+
+    #{$rs}__item:hover & {
+      width: calc(100% + 2px);
+      opacity: 1;
+      transition: width 0s ease 0s, opacity .3s ease 0s;
+    }
+  }
+
+  &__inner {
+    background-color: #ffffff;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    padding: 0 15px 15px 15px;
+  }
+
+  &__organization {
+    margin-bottom: 5px;
+  }
+
+  &__opening-date {
+    margin-bottom: 5px;
+  }
+
+  &__btn {
+    display: flex;
+    margin: 0 auto;
+  }
+}

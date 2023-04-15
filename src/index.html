@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <%- include('components/head/head.html', {
+      title: 'Главная'
+    }) %>
+  </head>
+  <body>
+    <div class="wrap">
+      <%- include('components/header/header.html') %>
+
+      <main class="middle">
+        <%- include('components/clients-data/clients-data.html') %>
+      </main>
+
+      <%- include('components/footer/footer.html') %>
+    </div>
+
+    <%- include('components/scripts/scripts.html') %>
+  </body>
+</html>
